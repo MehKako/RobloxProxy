@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+<body>
+	<script src="./JQuery.js"> </script>
+	<script>
+		$.ajax({ url: 'https://games.roblox.com/v1/games/multiget-place-details?placeIds=3286745597', success: function(data) { alert(data); } });
+		console.log(window.location.href.substring(window.location.href.indexOf('?') + 1));
+		document.body.innerHTML = ""
+	</script>
+</body>
